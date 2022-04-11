@@ -1,7 +1,6 @@
 all:
-	g++ -std=c++17 Main.cpp -o Main
-	g++ -std=c++17 ModelIP.cpp -o ModelIP
-	g++ -std=c++17 cplex.cpp -o cplex
+	g++ -std=c++17 Main.cpp cplex.cpp ModelIP.cpp
+	
 	
 
 test:
