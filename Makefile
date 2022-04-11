@@ -7,4 +7,4 @@ test:
 	
 
 clean:
-	$(RM) hello 
+	$(RM) Main 
